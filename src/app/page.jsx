@@ -133,14 +133,13 @@ function MainComponent() {
 
   return (
     <>
-      <Helmet>
+      <Head>
+        <title>Verbatim Social</title>
         <link
-          rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-          integrity="sha384-k6RqeWec7J7hQHfk5Y6A7joxTCcQbSTH6lR3T9tM6i5MvRbRB9u8JLjVDN2fW3Jv"
-          crossOrigin="anonymous"
+          rel="stylesheet"
         />
-      </Helmet>
+      </Head>
       <div className="flex flex-col min-h-screen bg-gradient-to-b from-[#030303] to-[#121212] text-white font-roboto">
       <header className="py-8 px-6 md:px-12 border-b border-gray-700 relative">
         <div className="container mx-auto flex items-center justify-between">
